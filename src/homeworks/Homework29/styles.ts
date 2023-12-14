@@ -11,7 +11,7 @@ export const Homework29Wrapper = styled.div`
   background-size: cover;
 `
 
-export const FormContainer = styled.form`
+export const FormContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;

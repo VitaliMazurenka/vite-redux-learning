@@ -1,9 +1,9 @@
-import { useState, ChangeEvent } from "react"
-
-import { Homework29Wrapper, FormContainer } from "./styles"
+import { useState, ChangeEvent, MouseEvent } from "react"
 
 import Input from "components/Input"
 import Button from "components/Button"
+
+import { Homework29Wrapper, FormContainer } from "./styles"
 
 function Homework29() {
   const [inputValue, setInputValue] = useState<string>("")
@@ -13,15 +13,16 @@ function Homework29() {
     setInputValue(event.target.value)
   }
 
-  const showText = () => {
-
+  const showText = (event: MouseEvent<HTMLButtonElement>) => {
+    event.preventDefault()
     if (inputValue.length === 0) {
-      alert("")
+      alert("Input пустой, введите символы")
       return
     }
 
     setText(inputValue)
   }
+
   return (
     <Homework29Wrapper>
       <FormContainer>
