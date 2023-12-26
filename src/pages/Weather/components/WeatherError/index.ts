@@ -1,3 +1,3 @@
-import WeatherError from "./WeatherError"
+import WeatherError from "./WeatherError";
 
-export default WeatherError
+export default WeatherError;

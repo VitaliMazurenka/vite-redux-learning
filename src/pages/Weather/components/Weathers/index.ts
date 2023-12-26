@@ -1,3 +1,3 @@
-import Weathers from "./Weathers"
+import Weathers from "./Weathers";
 
-export default Weathers
+export default Weathers;

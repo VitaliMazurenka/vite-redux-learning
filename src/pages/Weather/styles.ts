@@ -17,6 +17,7 @@ export const WeatherWrapper = styled.div`
 export const Header = styled.header`
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   padding: 25px 85px;
   border-bottom: 1px #d2d2d2 solid;
@@ -52,4 +53,5 @@ export const Main = styled.main`
   flex-direction: column;
   align-items: center;
   flex: 1;
+  margin: 90px 90px 80px 90px;
 `
